@@ -1,0 +1,52 @@
+<p>String Pipe</p>
+<p>{{title| uppercase}}</p>
+<p>{{title| lowercase}}</p>
+<p>{{title| titlecase}}</p>
+
+<br><br>
+<p>=====================================</p>
+<p>Date Pipe</p>
+<p>{{today}}</p>
+<p>{{today | date:'short'}}</p>
+<p>{{today | date:'full'}}</p>
+<p>{{today | date: 'yyyy/M/dd'}}</p>
+<p>{{today | date: 'yyyy/M/dd'}}</p>
+
+<br><br>
+<p>====================================</p>
+<p>JSON Pipe</p>
+<p>{{student.name | json}}</p>
+
+<br><br>
+<p>====================================</p>
+<p>Currency Pipe</p>
+<p>{{money | currency:'USD' }}</p>
+<p>{{money | currency:'EUR' }}</p>
+<p>{{money | currency:'INR' }}</p>
+<p>{{money | currency:'CAD' }}</p>
+<p>{{money | currency:'AUD' }}</p>
+
+<br><br>
+<p>====================================</p>
+<p>Percentage Pipes</p>
+<p>{{marks | percent}}</p>
+
+<br><br>
+<p>====================================</p>
+<p>Decimal Pipes</p>
+<p>{{age | number}}</p>
+
+<br><br>
+<p>====================================</p>
+<p>Slice Pipes</p>
+<p>{{weekdays}}</p>
+<p>{{weekdays | slice:2}}</p>
+<p>{{name | slice:2}}</p>
+
+<br><br>
+<p>====================================</p>
+<p>Customised Pipes</p>
+<p>{{25 | sqrt}}</p>
+<p>{{num | sqrt}}</p>
+
+<router-outlet></router-outlet>
